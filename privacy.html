@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Akashvani Live</title>
+  <style>
+    :root { color-scheme: light dark; --fg: #1c2a2e; --bg: #f4efe6; --accent: #0d5b6a; --muted: #5b6a6e; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #e2e8ea; --bg: #0e1619; --accent: #7ccadb; --muted: #9fb0b5; } }
+    body { margin: 0; padding: 32px 16px 64px; background: var(--bg); color: var(--fg);
+           font: 17px/1.6 Georgia, "Times New Roman", serif; }
+    main { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 2rem; color: var(--accent); margin-bottom: 0.2em; }
+    h2 { font-size: 1.25rem; color: var(--accent); margin-top: 2em; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.95em; }
+    footer { margin-top: 3em; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy for Akashvani Live</h1>
+  <p class="meta">Effective date: 24 October 2026</p>
+
+  <p>Akashvani Live (“the app”) is an independent, unofficial player for publicly available All India Radio (Akashvani) live streams. This policy explains what the app does and does not do with data.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>The app does not require an account and never asks for your name, email address, phone number, contacts, location or any other personal information.</li>
+    <li>The app does not contain advertising, analytics or tracking software of any kind.</li>
+    <li>The app does not sell, share or transfer any user data to third parties.</li>
+  </ul>
+
+  <h2>Data stored on your device</h2>
+  <p>The app stores the following on your device only, so that it can remember your preferences:</p>
+  <ul>
+    <li>the last station you played;</li>
+    <li>the language filter you selected;</li>
+    <li>whether the battery optimisation prompt has already been shown.</li>
+  </ul>
+  <p>This information never leaves your device. Uninstalling the app deletes it.</p>
+
+  <h2>Network requests</h2>
+  <p>To work, the app connects to:</p>
+  <ol>
+    <li><strong>Our station service</strong> (<code>air-api.lekkai.com</code>) to download the current list of stations, and optionally to relay the audio stream when a direct connection to the broadcaster fails. Like almost every web server, it keeps standard technical logs (IP address, request path, user agent, timestamp) for operational troubleshooting. These logs are not linked to any account or identity, are not used for profiling, and are deleted on a rolling basis within 30 days.</li>
+    <li><strong>Akashvani / Prasar Bharati and their content delivery networks</strong> (for example <code>akashvani.gov.in</code>, <code>prasarbharati.org</code>, <code>bitgravity.com</code>, <code>wavespb.com</code>, <code>cloudfront.net</code>) to play the live audio. Their handling of connection data is governed by their own policies.</li>
+    <li><strong>GitHub</strong> (<code>raw.githubusercontent.com</code>), only as a fallback source for the station list if our service is unavailable.</li>
+  </ol>
+  <p>All connections use HTTPS where the broadcaster supports it.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Internet</strong>: required to download the station list and stream audio.</li>
+    <li><strong>Foreground service / media playback</strong>: keeps audio playing when the screen is off or another app is in front, and shows playback controls in the notification shade and on the lock screen.</li>
+    <li><strong>Notifications</strong>: used solely for the media playback control notification.</li>
+    <li><strong>Ignore battery optimisations</strong> (optional, asked once): prevents some phones from stopping background audio. The app works without it.</li>
+    <li><strong>Wake lock</strong>: keeps the network connection active while audio is playing.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and does not knowingly collect any information from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be published at this address (https://70ramireddy.github.io/akashvani-live-site/privacy.html) and the effective date above will be updated.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:DEVELOPER_EMAIL">DEVELOPER_EMAIL</a></p>
+
+  <footer>Akashvani Live is not affiliated with, endorsed by or connected to Prasar Bharati or All India Radio.</footer>
+</main>
+</body>
+</html>
